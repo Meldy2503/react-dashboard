@@ -1,4 +1,52 @@
+/* #1792d2
+   #04122b
+   #f8f8f8
+   #707070 */
+
 .App {
-  text-align: center;
-}
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .navbar {
+      background-color: #04122b;
+      display: flex;
+      height: 70px;
+  }
+  .navbar-button {
+      color: #f8f8f8;
+      font-size: 2rem;
+      padding-left: .5em;
+      margin: .5em;
+  }
+  .nav-menu {
+    background-color: #04122b;
+    width: 350px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    /* left: -100%; */
+    transition: .8s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: start
+
+
+  }
+  .nav-menu.active {
+    left: 0;
+    transition: .5s;
+  }
+  .menu-nav {
+      background-color: aqua;
+      padding-left: .5em;
+      margin: .5em;
+      
+  }
+  .menu-ul {
+  background-color:;
+  }
+ .menu-options {
+    background-color:;
+ }
 
