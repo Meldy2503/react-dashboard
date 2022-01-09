@@ -7,37 +7,37 @@ import { IoHelpCircle } from 'react-icons/io5';
 export const menuBarData =[ 
  {
     title: 'Home',
-    icon: < FaHome />,
+    icon: < FaHome className='menu-icon'/>,
     path: '/',
     cName: 'menu-list'
 },
  {
     title: 'Messages',
-    icon: < AiOutlineMail />,
+    icon: < AiOutlineMail className='menu-icon'/>,
     path: '/Messages',
     cName: 'menu-list'
  },
  {
     title: 'Reports',
-    icon: < AiFillBook />,
+    icon: < AiFillBook className='menu-icon'/>,
     path: '/Reports',
     cName: 'menu-list'
  },
  {
     title: 'Products',
-    icon: < FaShoppingCart />,
+    icon: < FaShoppingCart className='menu-icon'/>,
     path: '/Products',
     cName: 'menu-list'
  },
  {
     title: 'Team',
-    icon: < RiTeamFill />,
+    icon: < RiTeamFill className='menu-icon'/>,
     path: '/Team',
     cName: 'menu-list'
  },
  {
     title: 'Support',
-    icon: < IoHelpCircle />,
+    icon: < IoHelpCircle className='menu-icon'/>,
     path: '/Support',
     cName: 'menu-list'
  }

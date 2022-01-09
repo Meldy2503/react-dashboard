@@ -3,10 +3,10 @@ import React from 'react'
 function Home() {
     return (
         <div>
-            <h1>home</h1>
+            <h1>Welcome to P</h1>
         </div>
-    )
+    );
 }
 
-export default Home
+export default Home;
 

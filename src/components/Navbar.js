@@ -19,14 +19,14 @@ function Navbar() {
                     < FaBars />
                 </Link>
             </div> 
-            <div className={ menuBar ? 'nav-menu active' : 'nav-menu'}>
-                <Link to="#" className='navbar-button' onClick={showSideBar}>
+            <div className={ menuBar ? 'nav-menu active' : 'nav-menu'} onClick={showSideBar}>
+                <Link to="#" className='navbar-button' >
                      < AiOutlineClose />
                 </Link>
                 {menuBarData.map((options, index) => {
                     return (
                         <nav className='menu-nav'>
-                            <ul className='meenu-ul'>
+                            <ul className='menu-ul'>
                                 <li key={index} className={options.cName}>
                                     <Link to={options.path}>
                                        {options.icon}
