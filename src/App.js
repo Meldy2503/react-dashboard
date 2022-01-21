@@ -1,27 +1,29 @@
 import React from 'react';
 import './App.css';
-import { Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Messages from './components/Messages';
-import Products from './components/Products';
-import Reports from './components/Reports';
-import Team from './components/Team';
-import Support from './components/Support';
+import Home from './pages/Home';
+import Messages from './pages/Messages';
+import Products from './pages/Products';
+import Reviews from './pages/Reviews';
+import Team from './pages/Team';
+import Support from './pages/Support';
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <div>
       < Navbar />
-       <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='/Messages' element={<Messages />}/>
-          <Route path='/Products' element={<Products />}/>
-          <Route path='/Reports' element={<Reports />}/>
-          <Route path='/Team' element={<Team />}/>
-          <Route path='/Support' element={<Support />}/> 
-        </Routes>
+        <Routes>
+            <Route path='/*' index element={<Home />} />
+            <Route path='/Messages' element={<Messages />} />
+            <Route path='/Products' element={<Products />} />
+            <Route path='/Reviews' element={<Reviews />} />
+            <Route path='/Team' element={<Team />} />
+            <Route path='/Support' element={<Support />} /> 
+        </Routes> 
     </div>
+    </Router>
   );
 }
 

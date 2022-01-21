@@ -18,7 +18,7 @@ export const menuBarData =[
     cName: 'menu-list'
  },
  {
-    title: 'Reports',
+    title: 'Reviews',
     icon: < AiFillBook className='menu-icon'/>,
     path: '/Reports',
     cName: 'menu-list'

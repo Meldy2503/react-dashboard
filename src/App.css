@@ -4,26 +4,24 @@
    #707070 
    rgba(129, 9, 63, 0.95);*/
 
-.App {
-    height: 100vh;
-    width: 100vw;
-  }
 
+   /* Styles for the Navbar */
   .navbar {
-      background-color: rgba(129, 9, 63, 0.95);
+      background-color: #720838fa;
       display: flex;
       height: 70px;
 
   }
   .navbar-button {
       color: #f8f8f8;
-      font-size: 1.8rem;
+      font-size: 1.9rem;
       padding-left: .5em;
-      margin: .5em;
+      margin: .6em;
+    
   }
   .nav-menu {
-    background-color: rgba(129, 9, 63, 0.95);
-    width: 350px;
+    background-color: #720838fa;
+    width: 330px;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -39,7 +37,7 @@
   }
   .menu-nav {
       padding-left: .5em;
-      margin: .5em;
+      margin: .9em;
   }
   .menu-ul {
      list-style: none;
@@ -51,10 +49,12 @@
     font-weight: 700;
     display: flex;
     align-items: center;
-    padding: .8em;
+    padding: .6em;
+    margin-top: .75em;
+    font-size: 1.4rem;
  }
  .menu-list a:hover {
-  background-color: #eee;
+  background-color: #eeeaea;
   border-radius: 3px;
   color: #333;
  }
@@ -69,17 +69,19 @@
   top: 15%;
   left: 23%;
   transform: (-50%, -50%);
-  color: #f8f8f8;
-  text-shadow: 2px 2px 3px rgb(177, 21, 91);
+  color: #333;
+  text-shadow: 2px 2px 3px rgb(92, 11, 49);
   font-size: 3em;
+  font-weight: bolder;
 }
 
 .img-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
-  background-image: url("https://images.pexels.com/photos/7640901/pexels-photo-7640901.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  min-height: 91.1vh;
+  background-color: #eeeaea;
+  /* background-image: url("https://images.pexels.com/photos/7640901/pexels-photo-7640901.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
 }
 
 .images { 
